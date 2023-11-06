@@ -33,7 +33,7 @@ Name.Parent = Frame
 Name.BackgroundColor3 = Color3.new(1, 1, 1)
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "👑 b00sjkidd Gui | PAGE 2 👑"
+Name.Text = "b00sjkidd Gui   👑   PAGE 2"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -45,15 +45,13 @@ Credits.BackgroundColor3 = Color3.new(1, 1, 1)
 Credits.Position = UDim2.new(0, 0, 0.912, 0)
 Credits.Size = UDim2.new(0, 378, 0, 22)
 Credits.Font = Enum.Font.GothamBold
-Credits.Text = "BOSSJKLO IS THE KING | PAGE 2"
+Credits.Text = "BOSSJKLO IS THE KING | PAGE2"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
 Credits.MouseButton1Down:connect(function()
 ScreenGui:Destroy()
-wait(2.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/UPDBOSJKLSO/main/UPDBOSJKLSORANKS"))()
 end)
 
 AR.Name = "autoreport"
@@ -70,7 +68,6 @@ AR.TextWrapped = true
 AR.MouseButton1Down:connect(function()
 	while true do
 		
-wait(1)
     end
 end)
 DS.Name = "decalspam"
@@ -88,7 +85,7 @@ DS.MouseButton1Down:connect(function()
 	--Made by Servano
 
 	
-	
+	wait(1)
 end)
 e1x1x1x1Laugh.Name = "e1x1x1x1Laugh"
 e1x1x1x1Laugh.Parent = Frame
@@ -104,7 +101,7 @@ e1x1x1x1Laugh.TextWrapped = true
 e1x1x1x1Laugh.MouseButton1Down:connect(function()
 	--Made by Servano
 
- 
+
 		end
 end)
 DayToNight.Name = "DayToNight"
@@ -120,7 +117,7 @@ DayToNight.TextSize = 14.000
 DayToNight.TextWrapped = true
 DayToNight.MouseButton1Down:connect(function()
 	while true do 
-
+            
 		wait(0.5)
 	end
 end)
@@ -137,7 +134,6 @@ e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
 
-	
 
 wait(1)
 
@@ -156,7 +152,6 @@ EpicSaxGuy.TextWrapped = true
 EpicSaxGuy.MouseButton1Down:connect(function()
     -- Made by Boss
 				
-					
 				end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
@@ -171,7 +166,6 @@ Disc0.TextSize = 14.000
 Disc0.TextWrapped = true
 Disc0.MouseButton1Down:connect(function()
      --made by me
-
 
 
 end)
@@ -189,6 +183,7 @@ e2006Theme.TextWrapped = true
 e2006Theme.MouseButton1Down:connect(function()
 	--Made by Servano
 
+wait(1)	
 
 end)
 ForceField.Name = "ForceField"
@@ -203,14 +198,18 @@ ForceField.TextScaled = true
 ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
-	
+	-- Gui to Lua
+	-- Version: 3.
+	-- Instances:
+
+	wait(1)
 end)
 
 -- Scripts:
 
 local function QFCS_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
- 
+
 	local UIS = game:GetService("UserInputService")
 	function dragify(Frame)
 	    dragToggle = nil
