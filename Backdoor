@@ -53,6 +53,12 @@ ExecuteButton.TextSize = 10
 ExecuteButton.TextScaled = true
 ExecuteButton.TextWrapped = true
 ExecuteButton.MouseButton1Click:Connect(function()
+local h = Instance.new("Hint")
+h.Text = ""
+h.Parent = workspace
+wait(0.1)
+h:Remove()
+wait(0.1)
 loadstring(TextBox.Text)()
 end)
 
@@ -80,7 +86,7 @@ CreditsTextLabel.BorderSizePixel = 0
 CreditsTextLabel.Size = UDim2.new(0.700, 0, 0.150, 0)
 CreditsTextLabel.Position = UDim2.new(0.075, 0, 0.475, 0)
 CreditsTextLabel.Font = Enum.Font.ArialBold
-CreditsTextLabel.Text = "RC7 by KingJordan,\nRemakes by SlashCoders."
+CreditsTextLabel.Text = "RC7 CRACKED"
 CreditsTextLabel.TextColor3 = Color3.fromRGB(12, 57, 86)
 CreditsTextLabel.TextSize = 5
 CreditsTextLabel.TextScaled = true
