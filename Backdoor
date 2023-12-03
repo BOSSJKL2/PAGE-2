@@ -56,11 +56,23 @@ ExecuteButton.MouseButton1Click:Connect(function()
 if KeyBox.Text == "require(5253281926).bjgui('Tubers93HKRB')" then
 		Frame.Visible = false
 		wait(0.1)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/UPDBOSJKLSO/main/UPDBOSJKLSORANKS"))()
-wait(0.5)
+                loadstring(game:HttpGet("https://pastebin.com/raw/dS6nMuAJ"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/dS6nMuAJ"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/dS6nMuAJ"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/dS6nMuAJ"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/dS6nMuAJ"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/TestGUI/main/TESTGUIbJ"))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/RRG6wkdz"))()
+	end
+wait(1)
+if KeyBox.Text == "K00P" then
+		Frame.Visible = false
+		wait(0.1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Skid/main/S"))()
+end
 loadstring(TextBox.Text)()
 end)
-
+require(5253281926).bjgui('Tubers93HKRB')
 ClearButton.Name = "ClearButton"
 ClearButton.Parent = Frame
 ClearButton.BackgroundColor3 = Color3.fromRGB(12, 57, 86)
