@@ -57,14 +57,7 @@ if KeyBox.Text == "require(5253281926).bjgui('Tubers93HKRB')" then
 		Frame.Visible = false
 		wait(0.1)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/UPDBOSJKLSO/main/UPDBOSJKLSORANKS"))()
-	end
-wait(1)
-if KeyBox.Text == "require(4815027269).k00pzkidd('Tubers93HKRB')" then
-		Frame.Visible = false
-		wait(0.1)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Skid/main/S"))()
-end
-wait()
+wait(0.5)
 loadstring(TextBox.Text)()
 end)
 
