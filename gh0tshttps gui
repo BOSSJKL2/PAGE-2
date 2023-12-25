@@ -110,7 +110,7 @@ IY.Parent = Frame
 IY.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IY.BorderSizePixel = 3
-IY.Position = UDim2.new(0, 0, 0.79, 0)
+IY.Position = UDim2.new(0, 0, 0.6, 0)
 IY.Size = UDim2.new(0, 100, 0, 25)
 IY.Font = Enum.Font.SourceSans
 IY.Text = "INFINITE YIELD"
@@ -125,7 +125,7 @@ TA.Parent = Frame
 TA.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 TA.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TA.BorderSizePixel = 3
-TA.Position = UDim2.new(0.9, 0, 0.77, 0)
+TA.Position = UDim2.new(0.5, 0, 0.77, 0)
 TA.Size = UDim2.new(0, 100, 0, 25)
 TA.Font = Enum.Font.SourceSans
 TA.Text = "TALL AVATAR"
@@ -180,3 +180,65 @@ local function QFCS_fake_script() -- Frame.Dragify
 	dragify(script.Parent)
 end
 coroutine.wrap(QFCS_fake_script)()
+local function PKIPWI_fake_script() -- FLINGALL.LocalScript 
+	local script = Instance.new('LocalScript', FLINGALL)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- SpamCHAT.LocalScript 
+	local script = Instance.new('LocalScript', SpamCHAT)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
