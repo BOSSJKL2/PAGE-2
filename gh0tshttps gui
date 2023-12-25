@@ -10,7 +10,8 @@ local FLINGALL = Instance.new("TextButton")
 local SpamCHAT = Instance.new("TextButton")
 local ENERGIZE = Instance.new("TextButton")
 local IY = Instance.new("TextButton")
-local TA = Instance.new("TextButton")
+local OH = Instance.new("TextButton")
+local FLYING = Instance.new("TextButton")
  
 --Properties:
  
@@ -121,20 +122,35 @@ IY.TextWrapped = true
 IY.MouseButton1Down:connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-TA.Parent = Frame
-TA.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
-TA.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TA.BorderSizePixel = 3
-TA.Position = UDim2.new(0.5, 0, 0.77, 0)
-TA.Size = UDim2.new(0, 100, 0, 25)
-TA.Font = Enum.Font.SourceSans
-TA.Text = "OrbitHAT"
-TA.TextColor3 = Color3.fromRGB(0, 0, 0)
-TA.TextScaled = true
-TA.TextSize = 14.000
-TA.TextWrapped = true
-TA.MouseButton1Down:connect(function()
+OH.Parent = Frame
+OH.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+OH.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OH.BorderSizePixel = 3
+OH.Position = UDim2.new(0.5, 0, 0.77, 0)
+OH.Size = UDim2.new(0, 100, 0, 25)
+OH.Font = Enum.Font.SourceSans
+OH.Text = "OrbitHAT"
+OH.TextColor3 = Color3.fromRGB(0, 0, 0)
+OH.TextScaled = true
+OH.TextSize = 14.000
+OH.TextWrapped = true
+OH.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/BsJ4xfXu"))()
+end)
+FLYING.Parent = Frame
+FLYING.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+FLYING.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FLYING.BorderSizePixel = 3
+FLYING.Position = UDim2.new(0.5, 0, 0.6, 0)
+FLYING.Size = UDim2.new(0, 100, 0, 25)
+FLYING.Font = Enum.Font.SourceSans
+FLYING.Text = "Fly"
+FLYING.TextColor3 = Color3.fromRGB(0, 0, 0)
+FLYING.TextScaled = true
+FLYING.TextSize = 14.000
+FLYING.TextWrapped = true
+FLYING.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TCHpDrRr"))()
 end)
 -- Scripts:
 
