@@ -67,27 +67,7 @@ SpamCHAT.TextScaled = true
 SpamCHAT.TextSize = 14.000
 SpamCHAT.TextWrapped = true
 SpamCHAT.MouseButton1Down:connect(function()
-local A_1 = "😡TEAM BOSSJKLO AND JUPAL HAS HACKED YOUR GAME 😡"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(2)
-local A_1 = "😡HAHAH!?!?1😡"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(1.5)
-local A_1 = "😡WE WILL BE ROBLOX FOR A LONG T1ME!!111😡"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(2)
-local A_1 = "😡HAHAHA YOU'VE BEEN TROLLED LOL!!111😡"
-local A_2 = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer(A_1, A_2)
-wait(1.5)
-local A_1 = "😡SO FUNNI GUYS!!111😡"
+local A_1 = "😡TEAM JKLO HAS DESTROYED!1?!1??"
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
@@ -96,7 +76,7 @@ ENERGIZE.Parent = Frame
 ENERGIZE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 ENERGIZE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ENERGIZE.BorderSizePixel = 3
-ENERGIZE.Position = UDim2.new(0, 0, 0.77, 0)
+ENERGIZE.Position = UDim2.new(0, 0, 0.06, 0)
 ENERGIZE.Size = UDim2.new(0, 100, 0, 25)
 ENERGIZE.Font = Enum.Font.SourceSans
 ENERGIZE.Text = "ENERGIZE"
@@ -111,7 +91,7 @@ IY.Parent = Frame
 IY.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IY.BorderSizePixel = 3
-IY.Position = UDim2.new(0, 0, 0.6, 0)
+IY.Position = UDim2.new(0, 0, 0.2, 0)
 IY.Size = UDim2.new(0, 100, 0, 25)
 IY.Font = Enum.Font.SourceSans
 IY.Text = "INFINITE YIELD"
@@ -126,7 +106,7 @@ OH.Parent = Frame
 OH.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 OH.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OH.BorderSizePixel = 3
-OH.Position = UDim2.new(0.5, 0, 0.77, 0)
+OH.Position = UDim2.new(0.5, 0, 0.06, 0)
 OH.Size = UDim2.new(0, 100, 0, 25)
 OH.Font = Enum.Font.SourceSans
 OH.Text = "OrbitHAT"
@@ -141,7 +121,7 @@ FLYING.Parent = Frame
 FLYING.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 FLYING.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FLYING.BorderSizePixel = 3
-FLYING.Position = UDim2.new(0.5, 0, 0.6, 0)
+FLYING.Position = UDim2.new(0.5, 0, 0.2, 0)
 FLYING.Size = UDim2.new(0, 100, 0, 25)
 FLYING.Font = Enum.Font.SourceSans
 FLYING.Text = "Fly"
