@@ -10,6 +10,7 @@ local FLINGALL = Instance.new("TextButton")
 local SpamCHAT = Instance.new("TextButton")
 local ENERGIZE = Instance.new("TextButton")
 local IY = Instance.new("TextButton")
+local TA = Instance.new("TextButton")
  
 --Properties:
  
@@ -94,7 +95,7 @@ ENERGIZE.Parent = Frame
 ENERGIZE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 ENERGIZE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ENERGIZE.BorderSizePixel = 3
-ENERGIZE.Position = UDim2.new(0, 0, 0.7, 0)
+ENERGIZE.Position = UDim2.new(0, 0, 0.77, 0)
 ENERGIZE.Size = UDim2.new(0, 100, 0, 25)
 ENERGIZE.Font = Enum.Font.SourceSans
 ENERGIZE.Text = "ENERGIZE"
@@ -120,20 +121,20 @@ IY.TextWrapped = true
 IY.MouseButton1Down:connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-ENERGIZE.Parent = Frame
-ENERGIZE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
-ENERGIZE.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ENERGIZE.BorderSizePixel = 3
-ENERGIZE.Position = UDim2.new(0, 0, 0.7, 0)
-ENERGIZE.Size = UDim2.new(0, 100, 0, 25)
-ENERGIZE.Font = Enum.Font.SourceSans
-ENERGIZE.Text = "ENERGIZE"
-ENERGIZE.TextColor3 = Color3.fromRGB(0, 0, 0)
-ENERGIZE.TextScaled = true
-ENERGIZE.TextSize = 14.000
-ENERGIZE.TextWrapped = true
-ENERGIZE.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Rx4Qqicd"))()
+TA.Parent = Frame
+TA.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+TA.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TA.BorderSizePixel = 3
+TA.Position = UDim2.new(0.9, 0, 0.77, 0)
+TA.Size = UDim2.new(0, 100, 0, 25)
+TA.Font = Enum.Font.SourceSans
+TA.Text = "TALL AVATAR"
+TA.TextColor3 = Color3.fromRGB(0, 0, 0)
+TA.TextScaled = true
+TA.TextSize = 14.000
+TA.TextWrapped = true
+TA.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/z1EjkZSP"))()
 end)
 -- Scripts:
 
