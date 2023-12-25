@@ -128,13 +128,13 @@ TA.BorderSizePixel = 3
 TA.Position = UDim2.new(0.5, 0, 0.77, 0)
 TA.Size = UDim2.new(0, 100, 0, 25)
 TA.Font = Enum.Font.SourceSans
-TA.Text = "TALL AVATAR"
+TA.Text = "OrbitHAT"
 TA.TextColor3 = Color3.fromRGB(0, 0, 0)
 TA.TextScaled = true
 TA.TextSize = 14.000
 TA.TextWrapped = true
 TA.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/z1EjkZSP"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/BsJ4xfXu"))()
 end)
 -- Scripts:
 
