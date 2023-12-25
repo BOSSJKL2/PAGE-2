@@ -6,8 +6,6 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
-local CLOSE = Instance.new("TextButton")
-local OPEN = Instance.new("TextButton")
 local FLINGALL = Instance.new("TextButton")
 local SpamCHAT = Instance.new("TextButton")
 local ENERGIZE = Instance.new("TextButton")
@@ -41,37 +39,6 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
-
-CLOSE.Parent = Frame
-CLOSE.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
-CLOSE.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CLOSE.BorderSizePixel = 3
-CLOSE.Position = UDim2.new(0, 0, 0.889380515, 0)
-CLOSE.Size = UDim2.new(0, 25, 0, 25)
-CLOSE.Font = Enum.Font.SourceSans
-CLOSE.Text = "✖️"
-CLOSE.TextColor3 = Color3.fromRGB(0, 0, 0)
-CLOSE.TextScaled = true
-CLOSE.TextSize = 14.000
-CLOSE.TextWrapped = true
-CLOSE.MouseButton1Down:connect(function()
-Frame.Visible = false
-end)
-OPEN.Parent = Frame
-OPEN.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
-OPEN.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OPEN.BorderSizePixel = 3
-OPEN.Position = UDim2.new(0, 0, 0.889380515, 0)
-OPEN.Size = UDim2.new(0, 25, 0, 25)
-OPEN.Font = Enum.Font.SourceSans
-OPEN.Text = "🔥"
-OPEN.TextColor3 = Color3.fromRGB(0, 0, 0)
-OPEN.TextScaled = true
-OPEN.TextSize = 14.000
-OPEN.TextWrapped = true
-OPEN.MouseButton1Down:connect(function()
-Frame.Visible = true
-end)
 
 FLINGALL.Parent = Frame
 FLINGALL.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
